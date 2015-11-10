@@ -234,7 +234,8 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: #783C8C;
+        background-color: transparent;
+        # please don't touch the code for the home page! it's under construction - jenna
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -253,7 +254,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #783C8C;
+        background-color: #222;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
