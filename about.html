@@ -1,15 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="CS KickStart is a one week introductory class to computer science. Students learn how to program, meet computer science students and professionals, and are introduced to different areas of computer science. This program targets incoming students to UC Berkeley who are curious about computer science and are interested in math, science or engineering. Students do not need to have any prior skills in programming. Our goal is to give them a hands-on experience in programming and to show them the creativity and power of computer science.">
-    <meta name="author" content="UC Berkeley">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="img/favicon.ico"> 
 
-    <title>About - CS Kickstart</title>
+    <title>CS KickStart</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -18,11 +16,18 @@
     <link href="css/agency.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <style>
+      .hidden{
+        display: none;
+      }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,24 +37,21 @@
     <![endif]-->
 
 </head>
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-shrink">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand page-scroll" href="index.html">CS KickStart</a>
+    </div>
 
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-shrink">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="index.html">CS Kickstart</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden">
@@ -69,114 +71,108 @@
         </li>
       </ul>
     </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-   
-
-   <body id="page-top" class="index">
-
-
-    <!--<h3 class="section-sebheading text-muted">Title</h3> <p class="text-muted">Website Design</p>-->
-    <div class="container">
-        <h2>About CS KickStart</h2>
-                <ul class="nav nav-tabs">
-                  <li class="active"><a href="#about">About Us</a></li>
-                  <li><a href="#organizers">Organizers</a></li>
-                  <li><a href="#team15">Team 2015</a></li>
-                  <li><a href="#eval">Evaluation</a></li>
-                  <li><a href="#photos">Photos</a></li>
-                </ul>
-        <div class="tab-content">
-          <div id="about" class="tab-pane fade in active">
-            <div class="container">
-                <div class="row">
-                <div class="col-xs-12 col-md-8">
-                    <br>
-                <p>
-                CS KickStart is a one-week introductory class to computer science. Students learn how to program, meet computer science students and professionals, and are introduced to different areas of computer science. This program targets incoming UC Berkeley students who are curious about computer science and are interested in math, science or engineering. Students do not need to have any prior skills in programming. Our goal is to give them a hands-on experience in programming and to show them the creativity and power of computer science.
-                </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="organizers" class="tab-pane fade">
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<body>
+  <div class="container">
+    <h2>About CS KickStart</h2>
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#about">About Us</a></li>
+      <li><a href="#organizers">Organizers</a></li>
+      <li><a href="#team15">Team 2015</a></li>
+      <li><a href="#eval">Evaluation</a></li>
+      <li><a href="#photos">Photos</a></li>
+    </ul>
+    <div class="tab-content">
+      <div id="about" class="tab-pane fade in active">
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-12">
-                <br>
-                <h2>Co-Founders</h2>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/Organizers/FloraineBerthouzoz.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Floraine Berthouzoz</h4>
-                        <p class="text-muted"> Co-Founder </p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/Organizers/colleen.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Colleen Lewis</h4>
-                        <p class="text-muted"> Co-Founder </p>
-                    </div>
-                </div>
-
-                </div>
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <br>
+              <p>CS KickStart is a one-week introductory class to computer science. Students learn how to program, meet computer science students and professionals, and are introduced to different areas of computer science. This program targets incoming UC Berkeley students who are curious about computer science and are interested in math, science or engineering. Students do not need to have any prior skills in programming. Our goal is to give them a hands-on experience in programming and to show them the creativity and power of computer science.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="organizers" class="tab-pane fade">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <br>
+              <h2>Co-Founders</h2>
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/Organizers/FloraineBerthouzoz.jpg" class="img-responsive img-circle" alt="">
+                      <h4>Floraine Berthouzoz</h4>
+                      <p class="text-muted"> Co-Founder </p>
+                  </div>
               </div>
 
-        </div>
-    </div>
-
-</div>  
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; CS KickStart 2015</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://www.facebook.com/CS.KickStart/?fref=ts"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/grps?home=&gid=6952434&trk=anet_ug_hm"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="http://www.berkeley.edu/">University of California, Berkeley</a>
-                        </li>
-                        <li>·</li>
-                        <li><a href="http://www.eecs.berkeley.edu/">EECS</a>
-                        </li>
-                    </ul>
-                </div>
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/Organizers/colleen.jpg" class="img-responsive img-circle" alt="">
+                      <h4>Colleen Lewis</h4>
+                      <p class="text-muted"> Co-Founder </p>
+                  </div>
+              </div>
             </div>
+            <div class="col-xs-12 col-md-12">
+              <br>
+              <h2>Student Organizers</h2>
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/Organizers/AmandaChow.jpg" class="img-responsive img-circle" alt="">
+                      <h4>Amanda Chow</h4>
+                      <p class="text-muted"> Lead Organizer </p>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </footer>
+      </div>
+      <div id="team15" class="tab-pane fade">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-12">
+              <br>
+              <h2>Participants</h2>
+              <div class="col-sm-4">
+                  <div class="team-member">
+                      <img src="img/Team2015/DorrinAkbari.jpg" class="img-responsive img-circle" alt="">
+                      <h4>Dorrin Akbari</h4>
+                      <p class="text-muted">Hello! My name is Dorrin Akbari, and I moved from Iran to California when I was seven years old.I only speak Farsi at home, so don't be surprised if I accidentally change languages in the middle of a conversation (it's happened more often than I'd like to admit). I became interested in CS after falling in love with the paradise that is the Googleplex at Google's Engineering Week, but I haven't had much experience in the field. I'm still uncertain about what I want to do with my life, so I've recently adopted a "say yes to things (that won't kill me)" policy. So far I've said "yes" to sitting on the ledge of a building to watch the sunset with my friends every night, a spontaneous camping trip, and CS KickStart. I look forward to meeting everyone in the program, and I can't wait to explore Cal together!</p>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+  <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/classie.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/agency.js"></script>
-
+  <!-- Custom Theme JavaScript -->
+  <script src="js/agency.js"></script>
 </body>
-
-</html>
+<script>
+$(document).ready(function(){
+    $(".nav-tabs a").click(function(){
+        $(this).tab('show');
+    });
+});
+</script>
