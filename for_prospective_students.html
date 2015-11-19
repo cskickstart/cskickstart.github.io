@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="img/favicon.ico"> 
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <title>CS KickStart</title>
 
@@ -24,8 +24,6 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <style>
       .hidden{
         display: none;
@@ -82,10 +80,10 @@
     <div class="container">
       <h2>For Prospective Students</h2>
       <ul class="nav nav-tabs">
-        <li class="active"><a href="#app">Application</a></li>
-        <li><a href="#schedule">Schedule</a></li>
-        <li><a href="#curriculum">Curriculum</a></li>
-        <li><a href="#faq">FAQ</a></li>
+        <li class="active"><a data-toggle="tab" href="#app">Application</a></li>
+        <li><a data-toggle="tab" href="#schedule">Schedule</a></li>
+        <li><a data-toggle="tab" href="#curriculum">Curriculum</a></li>
+        <li><a data-toggle="tab" href="#faq">FAQ</a></li>
       </ul>
       <div class="tab-content">
         <div id="app" class="tab-pane fade in active" style="padding-top: 30px; padding-bottom: 190px">
@@ -127,7 +125,7 @@
 
                   <li><b>Field Trip:</b>
                   Students will visit a Silicon Valley company to explore an example work environment for a computer scientist.</li>
-                  
+
                   <li><b>Social Activities:</b>
                   In addition to the daily activities, students will participate in a number of social activities led by current undergraduates (e.g. ice cream social, game night) to create a network of students that together may promote a climate of inclusion within the EECS department.</li>
                 </ul></div>
@@ -227,13 +225,13 @@
                     <b>Day 1:</b>  During the first part of the day, the students learned the basics of what Computer Science is and were introduced to the general idea of and the basics of programming languages (i.e. what data, functions, expressions are). During the lab exercises, students learned to interact with the Jython interpreter (by typing in expressions) and define their own functions. During the second part of the day, students learned specifically about the representation of pictures and pixels, picture and pixel methods in Jython, basic picture manipulations, and for loops. The second set of lab exercises allowed students to experiment with a variety of picture manipulations.
                     <br><br>
 
-                    <b>Day 2:</b> During the first part of the day, students were taught about conditional statements, double for loops, and ranges, and were shown how to utilize these techniques to manipulate pictures. During the lab exercises, students learned to apply conditional statements, double for loops, and ranges to create their own picture manipulations (some of the challenging lab exercises were walked through by instructors). During the second part of the day, students learned about chromakey and the basics of implementing it. During the second set of lab exercises, students had the opportunity to implement chromakey themselves, and create additional picture manipulations. 
+                    <b>Day 2:</b> During the first part of the day, students were taught about conditional statements, double for loops, and ranges, and were shown how to utilize these techniques to manipulate pictures. During the lab exercises, students learned to apply conditional statements, double for loops, and ranges to create their own picture manipulations (some of the challenging lab exercises were walked through by instructors). During the second part of the day, students learned about chromakey and the basics of implementing it. During the second set of lab exercises, students had the opportunity to implement chromakey themselves, and create additional picture manipulations.
                     <br><br>
 
-                    <b>Day 3:</b> On the third day, students learned how to create a collage of pictures (by creating an empty canvas and implementing a copy method). During the lab, students implemented the methods (scaling, copying, and cropping) that would allow them to create a collage, and worked further on their picture manipulations. 
+                    <b>Day 3:</b> On the third day, students learned how to create a collage of pictures (by creating an empty canvas and implementing a copy method). During the lab, students implemented the methods (scaling, copying, and cropping) that would allow them to create a collage, and worked further on their picture manipulations.
                     <br><br>
 
-                    <b>Day 4:</b> On the fourth day, students were introduced to a variety of other picture effects they could use (such as blurring, the sketch effect, blending) and approaches to implementing them. Students used lab time to finish "editing" their pictures by implementing the techniques of their choice in Jython. 
+                    <b>Day 4:</b> On the fourth day, students were introduced to a variety of other picture effects they could use (such as blurring, the sketch effect, blending) and approaches to implementing them. Students used lab time to finish "editing" their pictures by implementing the techniques of their choice in Jython.
 
                   </div>
 
@@ -261,7 +259,7 @@
                     <div class="col-md-3">
                       <b>Day 4</b>
                         <li><a href="img/curriculum/2012/day4/day4.pdf">Collage Techniques</a></li>
-                    </div> 
+                    </div>
                   </div>
                 </div>
               </div>
@@ -420,10 +418,10 @@
                         Email your question to <a href="mailto:apps.cskickstart@gmail.com">apps.cskickstart@gmail.com</a> and we'll get back to you. If lots of people ask the same question, we’ll add it to this page!
                       </div>
                     </div>
-                  </div>  
+                  </div>
                 </div>
               </div>
-            </div>        
+            </div>
           </div>
         </div>
       </div>
@@ -457,7 +455,7 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
+  <!-- jQuery -->
   <script src="js/jquery.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
@@ -473,13 +471,9 @@
 
   <!-- Custom Theme JavaScript -->
   <script src="js/agency.js"></script>
+
 </body>
 
 <script>
-$(document).ready(function(){
-    $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-});
 </script>
 </html>
