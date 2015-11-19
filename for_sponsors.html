@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="img/favicon.ico"> 
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <title>CS KickStart</title>
 
@@ -24,13 +24,6 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <style>
-      .hidden{
-        display: none;
-      }
-    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -82,10 +75,10 @@
   <div class="container">
     <h2>For Sponsors</h2>
     <ul class="nav nav-tabs">
-      <li class="active"><a href="#sponsors">Our Sponsors</a></li>
-      <li><a href="#how_to">How to Sponsor</a></li>
-      <li><a href="#faq_sponsors">FAQ</a></li>
-      <li><a href="#grant">NCWIT Grant</a></li>
+      <li class="active"><a data-toggle="tab" href="#sponsors">Our Sponsors</a></li>
+      <li><a data-toggle="tab" href="#how_to">How to Sponsor</a></li>
+      <li><a data-toggle="tab" href="#faq_sponsors">FAQ</a></li>
+      <li><a data-toggle="tab" href="#grant">NCWIT Grant</a></li>
     </ul>
     <div class="tab-content">
       <div id="sponsors" class="tab-pane fade in active" style="padding-top: 0px; padding-bottom: 150px">
@@ -93,7 +86,7 @@
           <div class="row">
             <div class="col-xs-12 col-md-12">
               <br>
-              <h2>Thank you to our sponsors and supporters!</h2> 
+              <h2>Thank you to our sponsors and supporters!</h2>
               <p>A donation is a wonderful way to support our program! Your gift will help us recruit teachers and guest speakers, host the students, develop our curricular materials, and continue to show students that computer science can be a fun, collaborative and creative field.</p>
               <div id="accordion" class="panel-group">
                     <div class="panel panel-default">
@@ -182,7 +175,7 @@
           </div>
         </div>
       </div>
-      
+
       <div id="grant" class="tab-pane fade">
         <div class="container">
           <div class="row">
@@ -319,7 +312,7 @@
                 </div>
               </div>
             </div>
-          </div>        
+          </div>
         </div>
       </div>
     </div>
@@ -369,11 +362,4 @@
   <!-- Custom Theme JavaScript -->
   <script src="js/agency.js"></script>
 </body>
-<script>
-$(document).ready(function(){
-    $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-});
-</script>
 </html>

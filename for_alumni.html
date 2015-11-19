@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="img/favicon.ico"> 
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <title>CS KickStart</title>
 
@@ -24,14 +24,6 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <style>
-      .hidden{
-        display: none;
-      }
-    </style>
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -57,20 +49,17 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="hidden">
-            <a href="#page-top"></a>
+        <li>
+            <a data-toggle="tab" href="about.html">About</a>
         </li>
         <li>
-            <a class="page-scroll" href="about.html">About</a>
+            <a data-toggle="tab" href="for_prospective_students.html">For Prospective Students</a>
         </li>
         <li>
-            <a class="page-scroll" href="for_prospective_students.html">For Prospective Students</a>
+            <a data-toggle="tab" href="for_sponsors.html">For Sponsors</a>
         </li>
         <li>
-            <a class="page-scroll" href="for_sponsors.html">For Sponsors</a>
-        </li>
-        <li>
-            <a class="page-scroll" href="for_alumni.html">For Alumni</a>
+            <a data-toggle="tab" href="for_alumni.html">For Alumni</a>
         </li>
       </ul>
     </div>
@@ -112,7 +101,7 @@
           </div>
         </div>
       </div>
-      
+
       <div id="ks2012" class="tab-pane fade" style="padding-top: 0px; padding-bottom: 340px">
         <div class="container">
           <div class="row">
@@ -131,7 +120,7 @@
               <br>
               <h2>KickStart 2013</h2>
             </div>
-          </div>        
+          </div>
         </div>
       </div>
 
@@ -176,7 +165,7 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
+  <!-- jQuery -->
   <script src="js/jquery.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
@@ -193,11 +182,4 @@
   <!-- Custom Theme JavaScript -->
   <script src="js/agency.js"></script>
 </body>
-<script>
-$(document).ready(function(){
-    $(".nav-tabs a").click(function(){
-        $(this).tab('show');
-    });
-});
-</script>
 </html>
