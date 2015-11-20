@@ -17,6 +17,11 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <style>
+    .btn-group:hover .dropdown-menu {
+        display: block;
+    }
+    </style>
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -228,34 +233,51 @@
                   </div>
 
                 <h4 style="padding-top: 30px; padding-bottom: 5px">Curriculum Files by Day</h4>
-                  <div class="row">
-                    <div class="col-md-3">
-                      <b>Day 1</b>
-                        <li><a href="img/curriculum/2012/day1/day1a.pdf">Intro and Basics</a></li>
-                        <li><a href="img/curriculum/2012/day1/day1b.pdf">Picture Manipulation</a></li>
-                        <li><a href="img/curriculum/2012/day1/lab1a.pdf">Lab 1a: Media Computation I</a></li>
-                        <li><a href="img/curriculum/2012/day1/lab1b.pdf">Lab 1b: Media Computation II</a></li>
-                    </div>
-                    <div class="col-md-3">
-                      <b>Day 2</b>
-                        <li><a href="img/curriculum/2012/day2/day2a.pdf">Defining Functions</a></li>
-                        <li><a href="img/curriculum/2012/day2/day2b.pdf">Chromakey</a></li>
-                        <li><a href="img/curriculum/2012/day2/lab2a.pdf">Lab 2a: Conditionals</a></li>
-                        <li><a href="img/curriculum/2012/day2/lab2b.pdf">Lab 2b: Chromakey</a></li>
-                    </div>
-                    <div class="col-md-3">
-                      <b>Day 3</b>
-                        <li><a href="img/curriculum/2012/day3/day3.pdf">Collage</a></li>
-                        <li><a href="img/curriculum/2012/day3/lab3.pdf">Lab 3: Collage</a></li>
-                    </div>
-                    <div class="col-md-3">
-                      <b>Day 4</b>
-                        <li><a href="img/curriculum/2012/day4/day4.pdf">Collage Techniques</a></li>
-                    </div>
-                  </div>
+                <div class="btn-group dropup">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Day 1 <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="img/curriculum/2012/day1/day1a.pdf" target="blank">Intro and Basics</a></li>
+                    <li><a href="img/curriculum/2012/day1/day1b.pdf" target="blank">Picture Manipulation</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="img/curriculum/2012/day1/lab1a.pdf" target="blank">Lab 1a: Media Computation I</a></li>
+                    <li><a href="img/curriculum/2012/day1/lab1b.pdf" target="blank">Lab 1b: Media Computation II</a></li>
+                  </ul>
+                </div>
+                <div class="btn-group dropup">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Day 2 <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="img/curriculum/2012/day2/day2a.pdf" target="blank">Defining Functions</a></li>
+                    <li><a href="img/curriculum/2012/day2/day2b.pdf" target="blank">Chromakey</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="img/curriculum/2012/day2/lab2a.pdf" target="blank">Lab 2a: Conditionals</a></li>
+                    <li><a href="img/curriculum/2012/day2/lab2b.pdf" target="blank">Lab 2b: Chromakey</a></li>
+                  </ul>
+                </div>
+                <div class="btn-group dropup">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Day 3 <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="img/curriculum/2012/day3/day3.pdf" target="blank">Collage</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="img/curriculum/2012/day3/lab3.pdf" target="blank">Lab 3: Collage</a></li>
+                  </ul>
+                </div>
+                <div class="btn-group dropup">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Day 4 <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="img/curriculum/2012/day4/day4.pdf" target="blank">Collage Techniques</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
+          </div>
         </div>
         <div id="faq" class="tab-pane fade in">
           <div class="container">
