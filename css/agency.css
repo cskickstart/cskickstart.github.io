@@ -649,6 +649,13 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
 aside.clients img {
     margin: 50px auto;
 }
