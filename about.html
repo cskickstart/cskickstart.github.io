@@ -464,35 +464,14 @@
 
     </div>
   </div>
+ <div id="footer-container">
+ </div>
 
-  <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; CS KickStart 2015</span>
-                </div>
-
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://www.facebook.com/CS.KickStart/?fref=ts"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/grps?home=&gid=6952434&trk=anet_ug_hm"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="http://www.berkeley.edu/">University of California, Berkeley</a>
-                        </li>
-                        <li>·</li>
-                        <li><a href="http://www.eecs.berkeley.edu/">EECS</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+ <script>
+  $(document).ready(function() {
+    $('#footer-container').load('/footer.html');
+  });
+ </script>
     <!-- jQuery -->
   <script src="js/jquery.js"></script>
 
