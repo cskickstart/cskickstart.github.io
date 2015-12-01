@@ -656,6 +656,21 @@ section h3.section-subheading {
   display:         flex;
 }
 
+
+.sponsor {
+  padding-top: 20px;
+  /*padding-bottom: -20px;*/
+  width: 200px;
+  height: 150px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.sponsor img {
+  vertical-align: middle;
+}
+
+
 aside.clients img {
     margin: 50px auto;
 }
